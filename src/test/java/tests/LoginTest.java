@@ -40,6 +40,8 @@ public class LoginTest {
 		//verificación
 		exists = accountPage.existElement(accountPage.WebSpanOrderHistoryAndDetails);
 		assertTrue("login succesfully", exists);
+		//prueba
+		
 	}
 	
 	@After
